@@ -26,8 +26,8 @@ The results of running the notebook can be viewed by opening the file ./docs/tut
 version can be found in the tutorials section of our website at https://qucat.org/tutorials/basics.html
 Instructions for running this tutorial oneself are given below.
 
-Running the comprehensive test run oneself
-===========================================
+Running the comprehensive test
+==============================
 
 One can simply copy and paste the different python commands visible in the notebook ./docs/tutorials/basics.html into a python file and execute the python file, 
 or open the notebook file and run the commands from there.
@@ -47,11 +47,9 @@ An updated version can be found online at https://qucat.org/
 Description of all files and folders
 ====================================
 
-- test.py   A file testing all the basic functionalities of this package to the attention of a reviewer.
+- .\docs\   Contains the html documentation of the package. One can read the documentation by opening ./docs/index.html. The documentation contains nformation about installation, a documented lists of functions, tutorials and more. The latest version can also be found at https://qucat.org/
 
-- .\docs\   Contains the html documentation of the package, one can read the documentation by opening ./docs/index.html. The documentation contains nformation about installation, a documented lists of functions, tutorials and more. An updated version can be found at https://qucat.org/
-
-- .\docs_src\   Contains some tutorials in the form of jupyter notebooks, an updated can be found on our website at https://qucat.org/tutorials/tutorials.html
+- .\tutorials\   Contains some tutorials in the form of jupyter notebooks, these can also be found on our website at https://qucat.org/tutorials/tutorials.html
 
 - .\src\    Contains the package source code
     - .\src\.graphics\      Contains the graphical elements used by the graphical user interface

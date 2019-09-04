@@ -61,7 +61,7 @@ def run_notebook(notebook_name):
     import sys
     import os
     sys.path.append(join(join(dirname(dirname(__file__)),'src')))
-    tutorials_folder = join(dirname(dirname(__file__)),'docs_src','source','tutorials')
+    tutorials_folder = join(dirname(dirname(__file__)),'tutorials')
     os.chdir(tutorials_folder)
     nb = nbformat.read(join(tutorials_folder,notebook_name), 4)
     sys.stdout = open(devnull, "w")
